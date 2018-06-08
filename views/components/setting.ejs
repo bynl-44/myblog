@@ -1,0 +1,10 @@
+<nav class="my-2 my-md-0 mr-md-3 setting">
+  <% if (user) { %>
+    <a class="p-2 text-dark" href="/posts">个人主页</a>
+    <a class="p-2 text-dark" href="#">发表博客</a>
+    <a class="p-2 text-dark" href="/user/signout">登出</a>
+    <%} else { %>
+      <a class="p-2 text-dark" href="/user/signin">登录</a>
+      <a class="p-2 text-dark" href="/user/signup">注册</a>
+      <%}%>
+</nav>

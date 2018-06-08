@@ -1,0 +1,12 @@
+<% include header %>
+  <div class="text-center">
+    <form class="form-signin" _lpchecked="1" action="/user/signin" method="post">
+      <h1 class="h3 mb-3 font-weight-normal">请登录</h1>
+      <label for="signin-name" class="sr-only">用户名</label>
+      <input id="signin-name" class="form-control" placeholder="用户名" type="text" name="name">
+      <label for="signin-password" class="sr-only">密码<span>*</span>:</label>
+      <input id="signin-password" class="form-control" placeholder="密码" type="password" name="password">
+      <button type="submit" class="btn btn-lg btn-primary btn-block">登录</button>
+    </form>
+  </div>
+  <% include footer %>
